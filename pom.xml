@@ -13,22 +13,20 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <name>Nexus Releases</name>
-      <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Nexus Snapshot</name>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <site>
-      <id>nexus</id>
-      <name>Nexus Sites</name>
-      <url>dav:http://localhost:8081/nexus/content/sites/site/</url>
-    </site>
-  </distributionManagement>
+        
+        <repository>
+            <id>maven-releases</id>
+            <name>maven-releases</name>
+            <url>https://se2-sandbox.sec.c3sys.army.mil/nexus/repository/maven-releases/</url>
+        </repository>
+        
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <name>maven-snapshots</name>
+            <url>https://se2-sandbox.sec.c3sys.army.mil/nexus/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        
+    </distributionManagement>
   <build>
     <plugins>
       <plugin>
