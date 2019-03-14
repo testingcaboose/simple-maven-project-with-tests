@@ -17,13 +17,13 @@
         <repository>
             <id>maven-releases</id>
             <name>maven-releases</name>
-            <url>https://se2-sandbox.sec.c3sys.army.mil/nexus/repository/maven-releases/</url>
+            <url>https://se2test.sec.c3sys.army.mil/nexus/repository/maven-releases/</url>
         </repository>
         
         <snapshotRepository>
             <id>maven-snapshots</id>
             <name>maven-snapshots</name>
-            <url>https://se2-sandbox.sec.c3sys.army.mil/nexus/repository/maven-snapshots/</url>
+            <url>https://se2test.sec.c3sys.army.mil/nexus/repository/maven-snapshots/</url>
         </snapshotRepository>
         
     </distributionManagement>
